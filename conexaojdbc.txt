@@ -1,0 +1,13 @@
+create database conexaojdbc
+use conexaojdbc
+
+create table alunos(
+id identity int not null,
+nome varchar(100),
+ra int
+primary key (id))
+
+insert into materias values
+('Gustavo', 12345),
+('Rafael', 23456),
+('Fabiana', 34567)
